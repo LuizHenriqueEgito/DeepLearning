@@ -1,20 +1,10 @@
-Esse é um texto de exemplo
-que eu quero testar minhas funções de sujeira
+Redes Neurais:
+16/06/2023
 
-Eu espero conseguir sujar ele bem
-quanto mais real for melhor
+Uma rede neural é um método de inteligência artificial que ensina
+computadores a processar dados de uma forma inspirada pelo cérebro humano.
+É um tipo de processo de machine learning, chamado aprendizado profundo,
+que usa nós ou neurônios interconectados em uma estrutura em camadas, 
+semelhante ao cérebro humano.
 
-Eu quero que esse texto se pareça algo 
-muito proximo ao que o OCR trás para a gente
-por isso vou colocar um link e um rodapé 
-nada a ver abaixo, uma data
-
-Agora nessa pagina dois eu não sei
-mais o que digitar no entanto
-eu preciso digitar mais coisas para 
-simular um segunda pagina
-hoje algum dia do mês da semana tal
-do ano tal aconteceu uma coisa 
-muito estranha
-
-E com isso a historia foi finalizada.
+Fim.

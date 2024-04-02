@@ -1,6 +1,7 @@
-MAX_SEQ_LEN: 233  # pois é o tamanho total do meu primeiro exemplo
+MAX_SEQ_LEN: 600  # pois é o tamanho total do meu primeiro exemplo
 EMBED_DIM: 32  # Também chamado de d_model
-VOCAB_SIZE: 60000
-PAD_IDX: 0
+VOCAB_SIZE: 2000
+PAD_TOKEN: 500
+EOS_TOKEN: 501
 N_HEADS: 4
-Nx: 12  # quantas vezes vamos realimentar o bloco decoder
+Nx: 8  # quantas vezes vamos realimentar o bloco decoder
