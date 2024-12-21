@@ -1,0 +1,8 @@
+VOCAB_SIZE = 30_000
+D_MODEL = 8
+SEQ_LEN = 124
+Nx = 3
+HEADS = 4
+B = 16
+EPOCHS = 50
+LR = 1e-5
