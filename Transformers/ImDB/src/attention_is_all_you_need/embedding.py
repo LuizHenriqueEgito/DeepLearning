@@ -3,10 +3,10 @@ import torch.nn as nn
 from torch import Tensor
 
 class EmbeddingModel(nn.Module):
-    def __init__(self, d_model, vocab_size):
+    def __init__(self, d_model: int, vocab_size: int):
         super().__init__()
         self.embedding = nn.Embedding(
-            num_embeddings=vocab_size,  # vocab_size
+            num_embeddings=vocab_size,
             embedding_dim=d_model,
             padding_idx=0
         )

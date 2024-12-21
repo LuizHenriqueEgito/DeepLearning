@@ -5,9 +5,9 @@ from torch import Tensor
 class PositionalEncoding(nn.Module):
     def __init__(
         self, 
-        d_model: int = 4, 
-        seq_len: int = 16,
-        dropout: float = 0.0
+        d_model: int, 
+        seq_len: int,
+        dropout: float
     ):
         super().__init__()
         self.dropout = nn.Dropout(p=dropout)

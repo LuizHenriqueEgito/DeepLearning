@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 class MultiHeadAttention(nn.Module): 
     
-    def __init__(self, d_model: int =2, n_heads: int = 2):
+    def __init__(self, d_model: int, n_heads: int):
         super().__init__()
         
         self.d_model = d_model
@@ -31,7 +31,13 @@ class MultiHeadAttention(nn.Module):
         x = x.contiguous().view((B, L, self.d_model))
         return x
         
-    def forward(self, encodings_for_q, encodings_for_k, encodings_for_v, mask=None):
+    def forward(
+        self, 
+        encodings_for_q, 
+        encodings_for_k, 
+        encodings_for_v, 
+        mask=None
+    ):
         q = self.pre_attention_reshape(self.W_q(encodings_for_q))
         k = self.pre_attention_reshape(self.W_k(encodings_for_k))
         v = self.pre_attention_reshape(self.W_v(encodings_for_v))

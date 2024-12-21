@@ -4,7 +4,7 @@ import torch.nn.functional as F
 
 class Attention(nn.Module): 
     
-    def __init__(self, d_model=2):
+    def __init__(self, d_model: int):
         super().__init__()
         
         self.d_model=d_model
