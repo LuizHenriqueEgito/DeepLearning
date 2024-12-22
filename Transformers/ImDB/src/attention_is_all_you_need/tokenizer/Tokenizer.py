@@ -43,6 +43,10 @@ class SpecialTokensInt(Enum):
     def todict(cls):
         return {token.name: token.value for token in cls}
 
+    @classmethod
+    def tolist(cls):
+        return list(cls.todict())
+
 @dataclass
 class TokenizerImDB:
     vocab_size: int
